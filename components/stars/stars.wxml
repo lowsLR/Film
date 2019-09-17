@@ -1,0 +1,5 @@
+<view class="rate-gro">
+  <image src="../../images/star-actived.png" wx:for="{{lights}}" wx:key="this" style="width:{{starSize}}rpx;height:{{starSize}}rpx"></image>
+  <image src="../../images/star.png" wx:for="{{grays}}" wx:key="this" wx:if="{{rate>0}}" style="width:{{starSize}}rpx;height:{{starSize}}rpx"></image>
+  <text style="font-size:{{fontSize}}rpx;color:{{fontColor}}" wx:if="{{istext}}">{{rate}}</text>
+</view>

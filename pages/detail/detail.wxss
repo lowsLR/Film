@@ -1,0 +1,96 @@
+/* pages/detail/detail.wxss */
+
+.item-header {
+  padding: 60rpx 30rpx;
+}
+
+.item-title {
+  font-size: 50rpx;
+}
+
+.item-detail {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+
+.left-detail {
+  flex: 1;
+  margin-right: 20rpx;
+  /* border: 1px solid #f59; */
+}
+
+.item-rate {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.comment-persons {
+  font-size: 28rpx;
+  color: #ccc;
+  margin-left: 20rpx;
+}
+
+.item-sub-detail {
+  margin-top: 40rpx;
+  font-size: 32rpx;
+}
+
+.item-sub-detail view {
+  margin-bottom: 10rpx;
+  word-break: break-all; /* 强制英文单词断行 */
+}
+
+.right-detail {
+  width: 200rpx;
+  height: 300rpx;
+  /* border: 1px solid #f59; */
+}
+
+.right-detail>image {
+  width: 100%;
+  height: 100%;
+}
+
+.item-tags {
+  padding: 0 30rpx;
+}
+
+.item-tags-title {
+  color: #b3b3b3;
+  font-size: 32rpx;
+  margin-bottom: 20rpx;
+}
+
+.item-tags-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.item-tags-list text {
+  padding: 10rpx 20rpx;
+  background: #f5f5f5;
+  font-size: 32rpx;
+  color: #353535;
+  text-align: center;
+  border-radius: 40rpx;
+  margin: 0 20rpx 20rpx 0;
+}
+
+.comment-list-group {
+  padding: 60rpx 30rpx;
+}
+
+.comment-title {
+  font-size: 32rpx;
+  color: #b3b3b3;
+}
+
+.more-comment {
+  text-align: center;
+  font-size: 36rpx;
+  color: #41be57;
+  margin-bottom: 40rpx;
+}

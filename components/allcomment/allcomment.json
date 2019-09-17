@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "stats": "/components/stars/stars"
+  }
+}

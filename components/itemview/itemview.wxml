@@ -1,0 +1,11 @@
+<navigator class="item-nav" wx:if="{{item}}" url="{{itemUrl}}">
+  <view class="item-gro">
+    <view class="thumbnail-gro">
+      <image class="thumbnail" src="{{item.cover.url}}"></image>
+    </view>
+    <view class="item-title">{{item.title}}</view>
+    <stars rate="{{item.rating.value}}" fontColor="red" />
+  </view>
+</navigator>
+<!-- 解决列不足三张排序的问题 -->
+<view class="item-nav" wx:else></view>

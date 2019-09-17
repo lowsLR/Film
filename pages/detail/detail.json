@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "stats": "/components/stars/stars",
+    "allcomment": "/components/allcomment/allcomment"
+  }
+}

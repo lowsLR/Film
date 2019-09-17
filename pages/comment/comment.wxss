@@ -1,0 +1,47 @@
+/* pages/comment/comment.wxss */
+
+.container {
+  padding: 20rpx 30rpx;
+}
+
+.item-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.thumbnail {
+  width: 40rpx;
+  height: 50rpx;
+}
+
+.item-title {
+  font-size: 32rpx;
+  color: #41be57;
+  margin: 0 10rpx;
+}
+
+.item-rate {
+  font-size: 28rpx;
+  color: #ccc;
+}
+
+.comment-title {
+  margin-top: 60rpx;
+  font-size: 40rpx;
+}
+
+.page-btn-group {
+  margin: 42rpx 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page-btn {
+  flex: 1;
+  height: 60rpx;
+  color: #898989;
+  border-color: #898989;
+  line-height: 60rpx;
+}

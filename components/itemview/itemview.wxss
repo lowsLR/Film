@@ -1,0 +1,32 @@
+.item-nav {
+  width: 200rpx;
+  margin-right: 20rpx;
+  display: inline-block;
+}
+
+/* .item-nav:last-of-type {
+  margin-right: 0;
+} */
+
+.item-gro {
+  width: 100%;
+}
+
+.thumbnail-gro {
+  width: 100%;
+  height: 284rpx;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+}
+
+.item-title {
+  font-size: 28rpx;
+  margin-top: 20rpx;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}
